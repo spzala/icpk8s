@@ -2,7 +2,7 @@
 
 ## Pre-req: Make sure you are in the Lab3 directory
 
-#Overview:
+## Overview:
 A Service is an abstraction which defines a logical set of Pods running in your cluster, 
 that all provide the same functionality. 
 When created, each Service is assigned a unique IP address, which is tied to the lifespan of the Service,
