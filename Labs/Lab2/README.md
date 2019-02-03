@@ -1,4 +1,4 @@
-# Instruction for Lab2 - Deployment
+# Lab2 - Deployment
 
 ## Pre-req: Make sure you are in the Lab2 directory.
 
@@ -32,17 +32,16 @@ Deployment is an abstractions on pods and replica set.
 
 `kubectl describe pod <pod-name>`
  
-(where <pod-name> is the name of one of your pods. For example,kubectl describe pod guestbook-deployment-431080787-gj435) 
+(where `<pod-name>` is the name of one of your pod. For example, `kubectl describe pod guestbook-deployment-431080787-gj435`) 
 
 ## Check logs of a pod
 
 `kubectl logs <pod-name>`
 
-(#where <pod-name> is the name of one of your pods. For example, kubectl logs guestbook-deployment-431080787-gj435)
+(where `<pod-name>` is the name of one of your pod. For example, `kubectl logs guestbook-deployment-431080787-gj435`)
 
 
-
-Outcome of Lab2:
-In this lab we accomplished following,
-1. Deployed guestbook application and redis database into Kubernetes by using Kubernetes resource Deployment. 
+## Outcome of Lab2:
+In this lab we accomplished the following,
+1. Deployed guestbook application and Redis database into Kubernetes by using Kubernetes resource Deployment. 
 2. Verified deployment and looked into a pod that was created with the deployment.
