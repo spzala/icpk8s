@@ -8,5 +8,5 @@ like Minikube.
 ## Set up ICP environment 
 Set up the ICP environment following the instruction provided [here].
 
-[here]: ./ICP/setupenv.md
+[here]: ./SetupICPEnv/setupenv.md
 
