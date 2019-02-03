@@ -8,9 +8,11 @@ These virtual clusters are called namespaces.
 Kubernetes namespaces help different projects, teams, or customers to share a Kubernetes cluster.
 A Kubernetes namespace provides the scope for Pods, Deployments and Services in the cluster.
 
-## Create namespace
+## Create namespace 
+The namespace is required to be unique among lab participant. Please user your
+first and last name with middleinitial as one word to name your namespace.
 
-```kubectl create namespace think```
+`kubectl create namespace <yourfirstandlastnamewithmiddleinitial>`
 
 ## Verify namespace
 
@@ -18,17 +20,17 @@ A Kubernetes namespace provides the scope for Pods, Deployments and Services in 
 
 ## Create and Set context 
 
-kubectl config set-context test --cluster mycluster.icp --user admin --namespace <firstandlastnamewithmiddleinitial>
+`kubectl config set-context test --cluster mycluster.icp --user admin --namespace <nameofyournamespace>`
 
-kubectl config set current-context test
+`kubectl config set current-context test`
 
 ## Get Contexts
 
-kubectl config get-contexts
+`kubectl config get-contexts`
 
 ## Display Current Context
 
-$kubectl config current-context
+`kubectl config current-context`
 
 
 
