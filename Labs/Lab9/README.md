@@ -16,7 +16,5 @@ of using it.
 ## Verify that env variable is passed to your container
 `kubectl exec cm-nginx -- printenv`
 
-
-
-Outcome of Lab9:
+## Outcome of Lab9:
 In this lab we learn how to pass env variable to container in a pod using ConfigMap.
