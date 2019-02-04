@@ -6,7 +6,6 @@
 Let's expose the service so it can be accessed via internet. Ideally before exposing a
 service to outside you should secure it but for quick lab purpose of testing we will go without
 securing. Kubernetes supports two primary modes of finding a Service - environment variables and DNS. 
----------------------------------------------------------------------------------------------------
 
 ## Check your service via DNS
 `kubectl get services guestbook --namespace=<nameofyournamespace>`
