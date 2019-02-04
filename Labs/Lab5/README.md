@@ -20,7 +20,7 @@ Since our proxy IP is http://10.0.0.3 so we can access the service externally vi
 You can also `curl <nodeIP>:<nodePort> (e.g. curl http://192.168.99.100:32583  OR curl http://10.0.0.3:32583))`
 
 
-## Output:
+## Outcome of Lab5
 By end of the Lab5, we accessed the guestbook application and played with it.
 
 

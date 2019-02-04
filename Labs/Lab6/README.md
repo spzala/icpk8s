@@ -36,5 +36,5 @@ This lab answers questions like,
 `kubectl get events`
 
 
-Outcome of Lab6:
+## Outcome of Lab6
 In this lab we learn about some of commands to get useful information about Kubernetes cluster and its resources.
