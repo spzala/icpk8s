@@ -1,6 +1,6 @@
 # Lab9 - shows how to globally set variable using ConfigMap
 
-## Pre-req: Make sure you are in the Lab9 directory
+## Pre-req: Make sure you are in the Lab9 directory.
 
 ## Overview:
 Set an environment variable in your container with ConfigMap.

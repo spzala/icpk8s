@@ -1,6 +1,6 @@
 # Lab10 - shows how to create and use Secret.
 
-## Pre-req: Make sure you are in the Lab10 directory
+## Pre-req: Make sure you are in the Lab10 directory.
 
 ## Overview:
 Create secret. There are multiple ways to use secret in your app, this exercise shows the usage of secret via env variables.

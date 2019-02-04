@@ -1,6 +1,5 @@
 # Lab6 - some useful basic commands for troubleshooting.
 
-
 ## Overview
 This lab answers questions like,
 * What's the version of my kubernetes? 

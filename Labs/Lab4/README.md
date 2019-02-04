@@ -1,6 +1,6 @@
 # Lab4 - Services
 
-## Pre-req: Make sure you are in the Lab3 directory
+## Pre-req: Make sure you are in the Lab3 directory.
 
 ## Overview:
 A Service is an abstraction which defines a logical set of Pods running in your cluster, 

@@ -1,6 +1,6 @@
 # Lab7 - Deploy guestbook with Helm 
 
-## Pre-req: you have helm installed. 
+## Pre-req: Helm is installed in your environment.
 
 ## Overview:
 Helm is a package manager for Kubernetes. It's easy to create and deploy helm charts. 
