@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-example
+  labels:
+    purpose: configmap-excercise
+data:
+  cm-webserver: configmap-nginx
