@@ -31,8 +31,8 @@ and type the following information:
 
 | Field | Value |
 |---|---|
-| Username | `student<n>` |
-| Password | `password` |
+| Username | admin |
+| Password | admin |
 | namespace | 2 (default) |
 
 * You can now validate your connection by running the following command:
