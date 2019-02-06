@@ -2,9 +2,9 @@
 
 ## Overview
 This lab answers questions like,
-* What's the version of my kubernetes? 
-* How can I look for help? 
-* How do I debug? 
+* What's the version of my kubernetes?
+* How can I look for help?
+* How do I debug?
 * Run these commands and check out the output.
 
 ## Find out version
@@ -37,3 +37,5 @@ This lab answers questions like,
 
 ## Outcome of Lab6
 In this lab we learn about some of commands to get useful information about Kubernetes cluster and its resources.
+
+# Proceed to Lab7: [Lab7](../Lab7/README.md)

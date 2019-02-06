@@ -1,9 +1,9 @@
-# Lab7 - Deploy guestbook with Helm 
+# Lab7 - Deploy guestbook with Helm
 
 ## Pre-req: Helm is installed in your environment.
 
 ## Overview:
-Helm is a package manager for Kubernetes. It's easy to create and deploy helm charts. 
+Helm is a package manager for Kubernetes. It's easy to create and deploy helm charts.
 In our previous exercise we deployed nginx directly with the Kuberntes. In this exercise,
 we will do the same but using helm chart.
 
@@ -41,3 +41,6 @@ Delete all Kubernetes resources generated when the chart was instantiated:
 
 ## Outcome of Lab7
 In this lab we got a basic understanding of Helm and deployed guestbook application using Helm chart.
+
+
+# Proceed to Lab8: [Lab8](../Lab8/README.md)

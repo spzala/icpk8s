@@ -22,7 +22,9 @@ You can also `curl <nodeIP>:<nodePort>` (e.g. `curl http://icp1-proxy.patrocinio
 By end of the Lab5, we accessed the guestbook application and played with it.
 
 
-#NOTE: outside the lab, you can also set your NodePort and IP as below, and access service: 
+#NOTE: outside the lab, you can also set your NodePort and IP as below, and access service:
 * `export NODE_PORT=$(kubectl get --namespace <nameofyournamespace> -o jsonpath="{.spec.ports[0].nodePort}" services guestbook)`
 * `export NODE_IP=$( kubectl get nodes --namespace <nameofyournamespace> -o jsonpath="{.items[0].status.addresses[0].address}")`
 * `curl http://$NODE_IP:$NODE_PORT`
+
+# Proceed to Lab6: [Lab6](../Lab6/README.md)

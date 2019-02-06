@@ -40,3 +40,5 @@ and type the following information:
 ```
 kubectl cluster-info
 ```
+
+# Proceed to Lab1: [Lab1](../Labs/Lab1/README.md)

@@ -14,3 +14,5 @@ Set an environment variable for your container.
 
 ## Outcome of Lab8
 In this lab we learn how to pass env variable to container in a pod.
+
+# Proceed to Lab9: [Lab9](../Lab9/README.md)
