@@ -40,3 +40,7 @@ The dialog should disappear (if not, do it again)
 Set up the connection to the Kubernetes environment following the instruction provided [here].
 
 [here]: ./SetupICPEnv/setupenv.md
+
+## Labs
+
+* [Lab1](Labs/Lab1/README.md)
