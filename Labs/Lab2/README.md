@@ -1,9 +1,11 @@
 # Lab2 - Deployment
 
-## Pre-req: Make sure you are in the Lab2 directory.
 
 ## Overview:
 Deployment is an abstractions on pods and replica set.
+
+## Go the Lab2 directory:
+`cd ~/icpk8s/Labs/Lab2`
 
 ## Create the Redis master deployment
 `kubectl create -f redis-master-deployment.yaml`
@@ -22,7 +24,7 @@ Deployment is an abstractions on pods and replica set.
 
 ## Display information about a specific deployment
 
-`kubectl describe deployment guestbook-deployment`
+`kubectl describe deployment guestbook-v1`
 
 ## List the pods created by the deployment
 
@@ -31,8 +33,8 @@ Deployment is an abstractions on pods and replica set.
 ## Display information about a specific pod
 
 `kubectl describe pod <pod-name>`
- 
-(where `<pod-name>` is the name of one of your pod. For example, `kubectl describe pod guestbook-deployment-431080787-gj435`) 
+
+(where `<pod-name>` is the name of one of your pod. For example, `kubectl describe pod guestbook-deployment-431080787-gj435`)
 
 ## Check logs of a pod
 
@@ -43,5 +45,5 @@ Deployment is an abstractions on pods and replica set.
 
 ## Outcome of Lab2:
 In this lab we accomplished the following,
-1. Deployed guestbook application and Redis database into Kubernetes by using Kubernetes resource Deployment. 
+1. Deployed guestbook application and Redis database into Kubernetes by using Kubernetes resource Deployment.
 2. Verified deployment and looked into a pod that was created with the deployment.
