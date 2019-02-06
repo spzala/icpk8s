@@ -27,4 +27,4 @@ By end of the Lab5, we accessed the guestbook application and played with it.
 * `export NODE_IP=$( kubectl get nodes --namespace <nameofyournamespace> -o jsonpath="{.items[0].status.addresses[0].address}")`
 * `curl http://$NODE_IP:$NODE_PORT`
 
-# Proceed to Lab6: [Lab6](../Labs/Lab6/README.md)
+# Proceed to Lab6: [Lab6](../Lab6/README.md)

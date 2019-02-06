@@ -19,4 +19,4 @@ of using it.
 ## Outcome of Lab9:
 In this lab we learn how to pass env variable to container in a pod using ConfigMap.
 
-# Proceed to Lab10: [Lab10](../Labs/Lab10/README.md)
+# Proceed to Lab10: [Lab10](../Lab10/README.md)

@@ -43,4 +43,4 @@ Delete all Kubernetes resources generated when the chart was instantiated:
 In this lab we got a basic understanding of Helm and deployed guestbook application using Helm chart.
 
 
-# Proceed to Lab8: [Lab8](../Labs/Lab8/README.md)
+# Proceed to Lab8: [Lab8](../Lab8/README.md)

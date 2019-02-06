@@ -48,4 +48,4 @@ In this lab we accomplished the following,
 1. Deployed guestbook application and Redis database into Kubernetes by using Kubernetes resource Deployment.
 2. Verified deployment and looked into a pod that was created with the deployment.
 
-# Proceed to Lab3: [Lab3](../Labs/Lab3/README.md)
+# Proceed to Lab3: [Lab3](../Lab3/README.md)

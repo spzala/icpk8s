@@ -38,4 +38,4 @@ This lab answers questions like,
 ## Outcome of Lab6
 In this lab we learn about some of commands to get useful information about Kubernetes cluster and its resources.
 
-# Proceed to Lab7: [Lab7](../Labs/Lab7/README.md)
+# Proceed to Lab7: [Lab7](../Lab7/README.md)

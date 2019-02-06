@@ -37,4 +37,4 @@ In this lab we accomplished following,
 1. Created service for guestbook, redis master and redis slave deployment
 2. Accessed service from a node within the cluster.
 
-# Proceed to Lab5: [Lab5](../Labs/Lab5/README.md)
+# Proceed to Lab5: [Lab5](../Lab5/README.md)

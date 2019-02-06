@@ -21,4 +21,4 @@ It's the same file that we had used in previous lab except that we have changed 
 ##  Outcome of Lab3
 In this lab we have scaled existing deployment of guestbook to 3 pods for high availability.
 
-# Proceed to Lab4: [Lab4](../Labs/Lab4/README.md)
+# Proceed to Lab4: [Lab4](../Lab4/README.md)
