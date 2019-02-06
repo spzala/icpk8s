@@ -52,13 +52,13 @@ cd icpk8s/Labs
 
 ## Labs
 
-* [Lab1](Labs/Lab1/README.mdM)
-* [Lab2](Labs/Lab2/README.mdM)
-* [Lab3](Labs/Lab3/README.mdM)
-* [Lab4](Labs/Lab4/README.mdM)
-* [Lab5](Labs/Lab5/README.mdM)
-* [Lab6](Labs/Lab6/README.mdM)
-* [Lab7](Labs/Lab7/README.mdM)
-* [Lab8](Labs/Lab8/README.mdM)
-* [Lab9](Labs/Lab9/README.mdM)
-* [Lab10](Labs/Lab10/README.mdM)
+* [Lab1](Labs/Lab1/README.md)
+* [Lab2](Labs/Lab2/README.md)
+* [Lab3](Labs/Lab3/README.md)
+* [Lab4](Labs/Lab4/README.md)
+* [Lab5](Labs/Lab5/README.md)
+* [Lab6](Labs/Lab6/README.md)
+* [Lab7](Labs/Lab7/README.md)
+* [Lab8](Labs/Lab8/README.md)
+* [Lab9](Labs/Lab9/README.md)
+* [Lab10](Labs/Lab10/README.md)
