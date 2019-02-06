@@ -3,16 +3,19 @@
 ## Pre-req: Make sure you are in the Lab3 directory.
 
 ## Overview:
-A Service is an abstraction which defines a logical set of Pods running in your cluster, 
-that all provide the same functionality. 
+A Service is an abstraction which defines a logical set of Pods running in your cluster,
+that all provide the same functionality.
 When created, each Service is assigned a unique IP address, which is tied to the lifespan of the Service,
-and will not change while the Service is alive. 
+and will not change while the Service is alive.
+
+## Go to Lab4 directory
+`cd ~/icpk8s/Labs/Lab4`
 
 ## Let's first check out what we have
-`kubectl get pods -l app= guestbook -o wide`
+`kubectl get pods -l app=guestbook -o wide`
 
 ## Check pods IP
-`kubectl get pods -l app= guestbook -o yaml | grep podIP`
+`kubectl get pods -l app=guestbook -o yaml | grep podIP`
 
 ## Create the Redis master service
 `kubectl create -f redis-master-service.yaml`
@@ -23,7 +26,7 @@ and will not change while the Service is alive.
 ## Create the guestbook service
 `kubectl create -f guestbook-service.yaml`
 
-## Check all services 
+## Check all services
 `kubectl get svc guestbook`
 
 ## Check pods endpoints
