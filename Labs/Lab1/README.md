@@ -1,14 +1,16 @@
 # Lab1 - Namespace and Context
 
+<!--
 ## Pre-req: you have a Kubernetes cluster created. Also, make sure you are in the Lab1 directory.
+-->
 
 ## Overview:
-Kubernetes supports multiple virtual clusters backed by the same physical cluster. 
+Kubernetes supports multiple virtual clusters backed by the same physical cluster.
 These virtual clusters are called namespaces.
 Kubernetes namespaces help different projects, teams, or customers to share a Kubernetes cluster.
 A Kubernetes namespace provides the scope for Pods, Deployments and Services in the cluster.
 
-## Create namespace 
+## Create namespace
 The namespace is required to be unique among lab participant. Please user your
 first and last name with middleinitial as one word to name your namespace.
 
@@ -18,7 +20,7 @@ first and last name with middleinitial as one word to name your namespace.
 
 `kubectl get namespaces`
 
-## Create and Set context 
+## Create and Set context
 
 `kubectl config set-context test --cluster mycluster.icp --user admin --namespace <nameofyournamespace>`
 
