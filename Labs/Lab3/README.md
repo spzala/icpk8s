@@ -15,7 +15,7 @@ It's the same file that we had used in previous lab except that we have changed 
 
 ## Guestbook deployment should have three pods now
 
-`kubectl get pods -l app= guestbook`
+`kubectl get pods -l app=guestbook`
 
 
 ##  Outcome of Lab3
