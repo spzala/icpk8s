@@ -22,7 +22,7 @@ first and last name with middleinitial as one word to name your namespace.
 
 ## Create and Set context
 
-`kubectl config set-context test --cluster mycluster.icp --user admin --namespace <nameofyournamespace>`
+`kubectl config set-context test --cluster icptest --user icptest-user --namespace <nameofyournamespace>`
 
 `kubectl config set current-context test`
 
@@ -41,4 +41,4 @@ In this lab we accomplished following,
 1. Created a specific namespace to use with the rest of the labs
 2. Created context
 3. Set current context to the one we have created
-So now our following labs will have it's own namespace (aka virtual cluster) and context.
+So now our following labs will have its own namespace (aka virtual cluster) and context.
