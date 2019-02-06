@@ -42,3 +42,5 @@ In this lab we accomplished following,
 2. Created context
 3. Set current context to the one we have created
 So now our following labs will have its own namespace (aka virtual cluster) and context.
+
+# Proceed to Lab2: [Lab2](../Labs/Lab2/README.md)
