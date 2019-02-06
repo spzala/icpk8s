@@ -41,6 +41,24 @@ Set up the connection to the Kubernetes environment following the instruction pr
 
 [here]: ./SetupICPEnv/setupenv.md
 
+## Clone this repository
+
+After setting up the connection to the Kubernetes environment, execute the following command in a Terminal window to clone this repository
+
+```
+git clone https://github.com/spzala/icpk8s.git
+cd icpk8s/Labs
+```
+
 ## Labs
 
-* [Lab1](Labs/Lab1/README.md)
+* [Lab1](Labs/Lab1/README.mdM)
+* [Lab2](Labs/Lab2/README.mdM)
+* [Lab3](Labs/Lab3/README.mdM)
+* [Lab4](Labs/Lab4/README.mdM)
+* [Lab5](Labs/Lab5/README.mdM)
+* [Lab6](Labs/Lab6/README.mdM)
+* [Lab7](Labs/Lab7/README.mdM)
+* [Lab8](Labs/Lab8/README.mdM)
+* [Lab9](Labs/Lab9/README.mdM)
+* [Lab10](Labs/Lab10/README.mdM)
