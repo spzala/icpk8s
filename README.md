@@ -36,7 +36,9 @@ Paste your command (with ^V)
 The dialog should disappear (if not, do it again)
 
 
-## START HERE: Clone this repository
+# START HERE
+
+## Clone this repository
 
 After setting up the connection to the Kubernetes environment, execute the following command in a Terminal window to clone this repository
 
@@ -46,9 +48,9 @@ cd icpk8s/Labs
 ```
 
 ## Set up connection to Kubernetes environment
-Set up the connection to the Kubernetes environment following the instruction provided [here].
+Set up the connection to the Kubernetes environment following the instruction provided:
 
-[here]: ./SetupICPEnv/setupenv.md
+# [Setup](SetupICPEnv/setupenv.md)
 
 
 ## Labs
