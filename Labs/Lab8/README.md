@@ -4,7 +4,7 @@
 Set an environment variable for your container.
 
 ## Go to Lab8 directory
-cd ~/icpk8s/Labs/Lab8`
+`cd ~/icpk8s/Labs/Lab8`
 
 ## Deploy pod
 `kubectl create -f env-variable.yaml`

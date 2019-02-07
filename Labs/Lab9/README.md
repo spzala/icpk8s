@@ -1,11 +1,12 @@
 # Lab9 - shows how to globally set variable using ConfigMap
 
-## Pre-req: Make sure you are in the Lab9 directory.
-
 ## Overview:
 Set an environment variable in your container with ConfigMap.
 ConfigMap allows many different option for creating global key-value pairs, this lab shows one of many ways
 of using it.
+
+## Go to Lab9 directory
+`cd ~/icpk8s/Labs/Lab9`
 
 ## Create configmap
 `kubectl create -f configmap.yaml`
