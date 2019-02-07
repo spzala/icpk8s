@@ -1,9 +1,10 @@
 # Lab8 - shows how to pass env variables to container.
 
-## Pre-req: Make sure you are in the Lab8 directory.
-
 ## Overview:
 Set an environment variable for your container.
+
+## Go to Lab8 directory
+cd ~/icpk8s/Labs/Lab8`
 
 ## Deploy pod
 `kubectl create -f env-variable.yaml`
