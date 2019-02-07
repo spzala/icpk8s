@@ -4,7 +4,7 @@
 ## Overview:
 Deployment is an abstractions on pods and replica set.
 
-## Go the Lab2 directory:
+## Go the Lab2 directory
 `cd ~/icpk8s/Labs/Lab2`
 
 ## Create the Redis master deployment
