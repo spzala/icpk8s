@@ -50,7 +50,7 @@ cd icpk8s/Labs
 ## Set up connection to Kubernetes environment
 Set up the connection to the Kubernetes environment following the instruction provided:
 
-# [Setup](SetupICPEnv/setupenv.md)
+## [Setup](SetupICPEnv/setupenv.md)
 
 
 ## Labs
