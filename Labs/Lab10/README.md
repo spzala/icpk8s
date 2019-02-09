@@ -17,7 +17,7 @@ Example output of the command: cGFzc3cwcmQkYmx1MTIz
 `kubectl create -f secret.yaml`
 
 ## Verify secret
-`kubectl get secret secret-excercise`
+`kubectl get secret secret-exercise`
 
 ## Use secret in a pod
 `kubectl create -f secret-env-variable.yaml`
