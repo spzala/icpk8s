@@ -7,7 +7,7 @@ Create secret. There are multiple ways to use secret in your app, this exercise 
 
 
 ## Generate encoded user name and password
-`echo -n 'user-testapp' | base64
+`echo -n 'user-testapp' | base64`
 Example output of the command: dXNlci10ZXN0YXBw) 
 
 `echo -n 'passw0rd$blu123' | base64`
