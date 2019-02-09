@@ -10,7 +10,7 @@ Let's remove earlier deployments of guestbook we created with using `kubectl`:
 
 `kubectl delete deployments guestbook-v1 redis-master redis-slave`
 
-`kubectl delete svc guestbook redis-master`
+`kubectl delete svc guestbook redis-master redis-slave`
 
 ## Install helm
 
