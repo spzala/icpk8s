@@ -28,9 +28,6 @@ This lab answers questions like,
 ## Find out details of cluster nodes
 `kubectl get nodes -o yaml`
 
-## Access the container of a pod
-`kubectl exec -it <podname like guestbook-deployment-431080787-07lwl> -- /bin/bash`
-
 ## Get status and other information about all the resources
 `kubectl get events`
 
