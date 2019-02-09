@@ -5,7 +5,7 @@
 
 ## Horizontal Pod Autoscaler
 * Horizontal Pod Autoscaler automatically scales the numbers of pods in a deployment or replica set based on observed CPU utilization.
-* Scales the number of pod replicas
+* Scales the number of pod replicas.
 * `kind: HorizontalPodAutoscaler`
 * Supported at the beta level.
 
