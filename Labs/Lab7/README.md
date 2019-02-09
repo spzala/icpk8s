@@ -44,26 +44,26 @@ sudo mv linux-amd64/helm /usr/local/bin
 `helm search helm101`
 
 ## Install guestbook
-`helm install helm101/guestbook --name guestbook<firstandlastname> --set serviceType=NodePort --tls`
+`helm install helm101/guestbook --name guestbook<firstandlastnamewithmiddleinitial> --set serviceType=NodePort --tls`
 
 ## Access the application
 
 Run the following command to retrieve the NodePort number:
 
-`kubectl get --namespace default -o jsonpath="{.spec.ports[0].nodePort}" services guestbook<firstandlastname>-guestbook`
+`kubectl get --namespace default -o jsonpath="{.spec.ports[0].nodePort}" services guestbook<firstandlastnamewithmiddleinitial>-guestbook`
 
 You will see a port number (like 31753)
 
 Open your browser to `http://icp1-proxy.patrocinio.org:<port-number>`
 
 ## Check chart release history
-`helm history guestbook<firstandlastname> --tls`
+`helm history guestbook<firstandlastnamewithmiddleinitial> --tls`
 
 ## Clean up
 First remove the repo:
 `helm repo remove helm101`
 Delete all Kubernetes resources generated when the chart was instantiated:
-`helm delete --purge guestbook<firstandlastname> --tls`
+`helm delete --purge guestbook<firstandlastnamewithmiddleinitial> --tls`
 
 
 ## Outcome of Lab7
