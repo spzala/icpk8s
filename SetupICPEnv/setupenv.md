@@ -11,6 +11,8 @@ Follow these steps to configure your connection to ICP:
 * Go to the directory `icp-health`
 
 ```
+cd ~
+git clone https://github.com/patrocinio/icp-health.git
 cd icp-health
 ```
 
