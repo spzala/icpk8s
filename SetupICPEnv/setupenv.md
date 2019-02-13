@@ -1,3 +1,12 @@
+# Clone this GitHub repository
+
+After setting up the connection to the Kubernetes environment, execute the foll$
+
+```
+git clone https://github.com/spzala/icpk8s.git
+cd icpk8s/Labs
+```
+
 # Set up connection to Kubernetes environment
 
 We need to establish connection to a Kubernetes environment.
