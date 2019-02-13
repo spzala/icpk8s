@@ -32,14 +32,8 @@ git pull
 * Run the following command to establish the connection:
 
   ```
-  ./configureHelmCLI.sh <ICP master>  
+  ./configureHelmCLI.sh icp1-master.patrocinio.org 
   ```
-
-  where <ICP master> is
-
-   * icp1-master.patrocinio.org if you were born in Jan, Feb, Mar or Apr
-   * icp2-master.patrocinio.org if you were born in May, Jun, July or Aug
-   * icp3-master.patrocinio.org if you were born in Sep, Oct, Nov or Dec
 
 and type the following information:
 
