@@ -11,7 +11,7 @@ Follow these steps to configure your connection to ICP:
 * Go to the directory `icp-health`
 
 ```
-cd icp-health
+cd ~/icp-health
 ```
 
 * Update this github repository to latest version:
