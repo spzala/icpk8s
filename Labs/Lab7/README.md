@@ -50,13 +50,13 @@ sudo mv linux-amd64/helm /usr/local/bin
 
 Run the following command to retrieve the NodePort number:
 
-`kubectl get --namespace default -o jsonpath="{.spec.ports[0].nodePort}" services guestbook<firstandlastnamewithmiddleinitial>-guestbook`
+`kubectl get -o jsonpath="{.spec.ports[0].nodePort}" services guestbook<firstandlastnamewithmiddleinitial>-guestbook`
 
 You will see a port number (like 31753)
 
 Open your browser to `http://icp1-proxy.patrocinio.org:<port-number>`
 
-## Check chart release history
+## Check chart release history 
 `helm history guestbook<firstandlastnamewithmiddleinitial> --tls`
 
 ## Clean up
