@@ -5,17 +5,6 @@ IBM Cloud Private (ICP). We have tested these labs using ICP but the content is
 generic enough to use on any cloud platform or local Kubernetes environment
 like Minikube.
 
-## How to connect to the Skytap VMs
-
-Use the following credential to access the environment:
-
-```
-user:ibmuser
-
-pwd: thinkibm
-```
-
-
 ## How to copy and paste commands to your environment
 
 During this lab, you will copy and paste extensively commands from this document to your Skytap environment.
@@ -34,6 +23,16 @@ You will see the following dialog:
 Paste your command (with ^V)
 
 The dialog should disappear (if not, do it again)
+
+## How to connect to the Skytap VMs
+
+Use the following credential to access the environment:
+
+```
+user:ibmuser
+
+pwd: thinkibm
+```
 
 # [Run This Setup](SetupICPEnv/setupenv.md)
 
